@@ -14,6 +14,17 @@
 目的外： 外来種対策
 
 
+# 想定デバイス
+
+- Web
+
+- モバイル
+    - Android
+    - iPhone
+- タブレット
+    - Android
+    - iPad
+
 # 構成図（初期時点）
 ```mermaid
 graph TB
