@@ -1,6 +1,7 @@
 # Next.js App Router ルール
 
-globs: ["app/**/*.tsx", "app/**/*.ts"]
+> 適用対象: `app/**/*.tsx`, `app/**/*.ts`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## 規約
 - Server Components をデフォルトとする

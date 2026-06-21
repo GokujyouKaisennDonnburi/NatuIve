@@ -5,7 +5,6 @@ description: >
   コード生成時に使用する。ファイルパス・要件・関連コンテキストを渡して呼び出す。
 tools: Read, Write, Edit, Bash, Grep, Glob
 model: sonnet
-effort: medium
 ---
 
 あなたはシニアソフトウェアエンジニアです。正確で簡潔な実装を行います。

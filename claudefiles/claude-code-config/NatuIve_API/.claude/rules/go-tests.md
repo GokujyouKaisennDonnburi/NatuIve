@@ -1,6 +1,7 @@
 # Go テストルール
 
-globs: ["**/*_test.go"]
+> 適用対象: `**/*_test.go`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## 規約
 - テーブル駆動テスト（table-driven tests）を基本とする

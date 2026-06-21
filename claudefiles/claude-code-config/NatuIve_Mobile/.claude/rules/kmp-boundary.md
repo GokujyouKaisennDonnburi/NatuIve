@@ -1,6 +1,7 @@
 # KMP 共有層の境界ルール
 
-globs: ["sharedLogic/**/*.kt"]
+> 適用対象: `sharedLogic/**/*.kt`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## 許可する内容
 - データモデル（data class）

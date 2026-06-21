@@ -1,6 +1,7 @@
 # Android UI ルール
 
-globs: ["androidApp/**/*.kt"]
+> 適用対象: `androidApp/**/*.kt`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## 規約
 - UI は Jetpack Compose で実装する

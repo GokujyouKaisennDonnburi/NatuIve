@@ -1,6 +1,7 @@
 # Docker ルール
 
-globs: ["Dockerfile*", "docker-compose*.yml", ".dockerignore"]
+> 適用対象: `Dockerfile*`, `docker-compose*.yml`, `.dockerignore`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## 方針
 - マルチステージビルドを使用する（builder → runtime）

@@ -55,3 +55,11 @@ iosApp/               # SwiftUI UI
 - 依存バージョン管理: `gradle/libs.versions.toml`（Version Catalog）
 - マルチモジュール化（`features/` 分割）は MVP 段階では行わない
 - IDE: Android Studio + KMP プラグイン（iOS は Xcode も必要）
+- **`.env` は絶対に読まない**（API キー・シークレット等を含む）。変数名や形式は `.env.example` を参照する
+
+## 詳細ルール
+以下を常時参照する（Claude Code の `@import`）。
+@.claude/rules/kmp-boundary.md
+@.claude/rules/android-compose.md
+@.claude/rules/ios-swiftui.md
+@.claude/rules/gradle.md

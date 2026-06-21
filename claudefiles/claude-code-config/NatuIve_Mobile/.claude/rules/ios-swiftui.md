@@ -1,6 +1,7 @@
 # iOS UI ルール
 
-globs: ["iosApp/**/*.swift"]
+> 適用対象: `iosApp/**/*.swift`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## 規約
 - UI は SwiftUI で実装する

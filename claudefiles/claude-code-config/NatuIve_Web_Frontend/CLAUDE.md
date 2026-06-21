@@ -1,4 +1,4 @@
-# nachuibe-web
+# NatuIve_Web_Frontend
 
 なちゅいべの Web フロントエンド。イベントの閲覧・検索・投稿・参加申し込みを行う。
 
@@ -44,3 +44,9 @@ bun run storybook            # Storybook 起動
 - App Router のファイル規約に従う（`page.tsx`, `layout.tsx`, `loading.tsx` 等）
 - Server Components をデフォルトとし、必要な場合のみ `'use client'`
 - ドメイン: `natuportal.org`（サブドメイン方式）
+- **`.env.local` は絶対に読まない**（Supabase 鍵等のシークレットを含む）。変数名や形式は `.env.example` を参照する
+
+## 詳細ルール
+以下を常時参照する（Claude Code の `@import`）。
+@.claude/rules/nextjs-app-router.md
+@.claude/rules/bun-usage.md

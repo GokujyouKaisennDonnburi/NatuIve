@@ -1,6 +1,7 @@
 # Bun 使用ルール
 
-globs: ["package.json", "bun.lockb", "bunfig.toml"]
+> 適用対象: `package.json`, `bun.lockb`, `bunfig.toml`。
+> このファイルは CLAUDE.md から `@import` で常時ロードされる。
 
 ## Bun はパッケージマネージャーとしてのみ使用
 
