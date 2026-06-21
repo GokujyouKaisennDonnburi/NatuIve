@@ -25,6 +25,18 @@
     - Android
     - iPad
 
+# 対象リポジトリ
+
+## 共通バックエンド
+https://github.com/GokujyouKaisennDonnburi/NatuIve_API
+
+## Webフロントエンド
+https://github.com/GokujyouKaisennDonnburi/NatuIve_Web_Frontend
+
+## モバイル(iOS,Android共通)
+https://github.com/GokujyouKaisennDonnburi/NatuIve_Mobile
+
+
 # 構成図（初期時点）
 ```mermaid
 graph TB
